@@ -1,0 +1,326 @@
+h1{
+    color: black;
+    text-align:center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 35px;
+}
+h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+h3{
+    color: aquamarine;
+    text-align: center;
+}
+
+
+p{
+    color: whitesmoke;
+    font-family:'Times New Roman';
+    letter-spacing: 2px;
+    font-size: larger;
+}
+
+body{
+    background-image: none;
+    background-color:white;
+}
+
+footer{
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman';   
+    text-decoration: underline;
+}
+
+.descripcion{
+    color: whitesmoke;
+    font-family:'Times New Roman';
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+
+
+footer{
+    margin: 1cm;
+}
+
+nav{
+    color: black;
+    font-family: "Times New Roman";
+    font-size: medium;
+    letter-spacing: 2px;
+    padding: 0%;
+    margin: auto;
+    justify-content: center;
+}
+.Botones{
+justify-content: space-around;
+font-family: 'Times New Roman';
+display: flex;
+}
+
+@media(max-width:650px){
+    body{
+        background-image: none;
+        background-color:whitesmoke;
+    }
+    p{
+        color: black;
+        font-family:'Times New Roman';
+        letter-spacing: 2px;
+        font-size:medium;
+    }
+    nav{
+        justify-content: center;
+        color: black;
+    }
+    h1{
+        color:black;
+        font-size:large;
+        font-family: "Times New Roman";
+        font-style: oblique;
+    }
+    h2{
+        color:black;
+        font-size: medium;
+        font-family: "Times New Roman";
+        font-style: oblique;
+    }
+    .imagen1{
+        width:25%;
+        height: auto;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .imagen2{
+        width: 25%;
+        height: auto;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .imagen3{
+        width: 25%;
+        height: auto;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .descripcion{
+        color: black;
+        font-family: "Times New Roman";
+        font-size: medium;
+    }
+    .nav-barra{display: flex;
+        justify-content: center;
+        background-color: black;
+        padding: 1opx;
+        gap: 10px;
+    }
+    }
+    .imagen1
+    footer{
+        color:black;
+        font-size: small;
+        font-family: "Times New Roman";
+        text-align: justify;
+    }       
+
+
+@media(min-width:651px){
+    body{
+        background-image: none;
+        background-color: whitesmoke;
+    }
+    p{
+        color: #000000;
+        text-align: left;
+        font-weight: normal;
+        font-size: medium;
+    }
+    h1{
+        color: #000000;
+        font-size:large;
+        font-family:"Times New Roman";
+        font-style: oblique;
+    }
+    h2{
+        color: #000000;
+        font-size:large;
+        font-family: "Times New Roman";
+        font-style: oblique;
+    }
+    .imagen1{
+        width: 25%;
+        height: auto;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .imagen2{
+        width: 25%;
+        height: auto;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .imagen3{
+        width: 25%;
+        height: auto;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    }
+    .descripcion{
+        color: #000000;
+        font-size:large;
+        font-family: "Times New Roman";
+        font-style: oblique;
+    }
+    footer{
+        color: #000000;
+        font-size:large;
+        font-family: "Times New Roman";
+        font-style: oblique;
+        text-align: justify;
+    }
+    .nav-barra{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        padding: 1opx;
+        gap: 10px;
+    }
+
+@media(min-width:800px){
+    h1{
+        color: black;
+        text-align: center;
+        font-family: "Times New Roman";
+        font-weight: 400;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 35px;
+    }
+    h2{
+        color: black;
+        text-align: center;
+        font-family: "Times New Roman";
+        font-weight: 400;
+        text-decoration: underline;
+        font-size: 35px;
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-family:'Times New Roman';
+        letter-spacing: 2px;
+        font-size:larger;
+    }
+    
+    footer{
+        color:rgb(0, 0, 0);
+        text-align: center;
+        font-family: 'Times New Roman';   
+        text-decoration: underline;
+    }
+    .imagen1{
+        width: 25%;
+        height: 25%;
+        margin-right: 5%;
+    }
+    .imagen2{
+        width: 25%;
+        height: 25%;
+        margin-right:5% ;
+    }
+    .imagen3{
+        width: 25%;
+        height: 25%;
+        margin-right: 5%;
+    }
+    .descripcion{
+        color: rgb(0, 0, 0);
+        font-family:'Times New Roman';
+        font-size: larger;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    body{
+        background-image: none;
+        background-color: whitesmoke;
+        background-size: cover;
+    }
+    
+    footer{
+        margin: 1cm;
+    }
+    
+    .nav-barra{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        padding: 1opx;
+        gap: 10px;
+    }
+    }
+    .Botones{
+    justify-content: space-around;
+    font-family: 'Times New Roman';
+    display: flex;
+    }
+    .imagenes-nest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+    .imagen-item{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        max-width: 800px;
+        width: 100%;
+    }
+    .imagen{
+        width: 40%;
+        height: auto;
+        border-radius: 10px;
+    }
+figcaption{
+    width: 60%;
+    text-align: left;
+}
+.descripcion{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#333;
+}
+.detalle{
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px;
+}
+.precio{
+    font-size: 1rem;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+
+
+
